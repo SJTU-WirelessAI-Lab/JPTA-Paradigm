@@ -11,7 +11,7 @@ function fig7_convergence(cfg0, nreal, recompute)
 %                与 (kappa, N, theta1, theta2)（行为2）
 %   画 mean / 10-percentile / 90-percentile，并在 10–90 之间填充"Feasible region"。
 %
-%   论文未给随机参数的具体分布，本实现取（与 REPORT.md 第 3.4 节一致）：
+%   论文未给随机参数的具体分布，本实现取（与 REPORT.zh.md 第 3.4 节一致）：
 %     N ∈ {1,2,4,8,16,32,64}（必须整除 M）
 %     kappa ∈ [1, M]
 %     行为1: theta0 ∈ [-pi/3, pi/3]，Dtheta ∈ [0, pi/2]

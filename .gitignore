@@ -9,5 +9,5 @@ matlab/out/*.mat
 .workbuddy/
 state/
 
-# 过程文档：本地保留，不入库（对外口径见 README.md 与 REPORT.md）
+# 过程文档：本地保留，不入库（对外口径见README与REPORT的中英文版）
 PLAN.md
