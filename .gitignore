@@ -1,1 +1,6 @@
+# MATLAB 输出：PNG 是交付物，保留跟踪；.mat 是中间数据，可重跑，单个体积 ~20 MB
+matlab/out/*.mat
 
+# MATLAB 自动保存与临时文件
+*.asv
+*.m~
