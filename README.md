@@ -1,5 +1,7 @@
 # JPTA2022
 
+[English](README.en.md) | 中文
+
 用MATLAB复现以下论文的全部仿真结果：
 
 > V. V. Ratnam, J. Mo, A. Alammouri, B. L. Ng, J. Zhang, A. F. Molisch,
@@ -11,7 +13,10 @@ Joint Phase-Time Arrays（JPTA）在传统移相阵列的每条支路上加一�
 本仓库给出论文全部可仿真结果（图4–图7、图9、图10）的独立实现、
 逐点数值对照与实现说明。
 
-- 结果报告（逐图数值表、论文笔误、实现陷阱）：[`REPORT.md`](REPORT.md)
+> **实现方式**：本仓库的仿真代码、全部数值结果与文档由**DeepSeek-V4.1-Flash**完成，
+> 未参考作者原始代码。各图数值已与原文逐项核对，不一致处见[`REPORT.md`](REPORT.md)§7.2。
+
+- 结果报告（逐图数值表、论文笔误、实现陷阱）：[`REPORT.md`](REPORT.md)（[English](REPORT.en.md)）
 - 仿真代码：[`matlab/`](matlab/)
 - 论文PDF：`Ratnam 等 - 2022 - Joint Phase-Time Arrays A Paradigm for Frequency-.pdf`
 
@@ -95,6 +100,8 @@ matlab/
   figs/                  六个图脚本，与论文图号一一对应
   out/                   输出PNG（入库）与.mat缓存（不入库）
 REPORT.md                复现报告：逐图数值对照、笔误清单、实现陷阱
+README.en.md             本文件英文版
+REPORT.en.md             REPORT.md英文版
 ```
 
 设计上只有`jpta_forward.m`一处实现前向模型，所有算法与所有图都调它，
