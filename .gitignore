@@ -4,3 +4,7 @@ matlab/out/*.mat
 # MATLAB 自动保存与临时文件
 *.asv
 *.m~
+
+# 本地工具数据（不随仓库分发）
+.workbuddy/
+state/
