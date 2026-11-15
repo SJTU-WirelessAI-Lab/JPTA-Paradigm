@@ -1,4 +1,4 @@
-# JPTA2022
+# JPTA-Paradigm
 
 [中文](README.zh.md) | English
 
